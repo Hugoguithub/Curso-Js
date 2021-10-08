@@ -8,7 +8,7 @@
     <style>
         body {
             background-color: rgb(66, 179, 66);
-       color: rgb(12, 14, 14);
+       color: rgb(12, 14, 14); /* comentario da pagina em css */
        font: normal 20pt arial;
         }
         h1 {color: firebrick;}
@@ -18,10 +18,11 @@
    <h1> Acerte o Placar ganhando Dinheiro.</h1>
    <p>Inicie Hoje E comece a Ganhar Dinheiro com seu celular.</p>
    <script>window.alert('.') 
-            var n1 = window.prompt('Digite um numero: ')
-            var n2 = window.prompt('digite outro numero: ')
-            var s = n1 + n2
-            window.alert('A soma dos valores é' + s)
+            var n1 = Number(window.prompt('Digite um numero: '))
+            var n2 = Number(window.prompt('digite outro numero: '))           
+             var s = n1 + n2
+            // Number + Number) Para adição //
+            window.alert('A soma dos valores é ' + s)
 </script>
             
 </body>
